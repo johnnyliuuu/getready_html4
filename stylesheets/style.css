@@ -1,0 +1,159 @@
+body{font-size:12px;line-height:18px;font-family:Arial,Helvetica,sans-serif;padding:18px 20px;}
+/*Golbal Layout*/
+#container{width:960px;margin:0 auto;}
+#header,
+#nav,
+#main-content,
+#content-area,
+.sidebars,
+#footer{float:left;display:inline;margin:0 10px;}
+
+#header,
+#nav,
+#footer{width:940px;}
+
+#sidebar-left{width:220px;margin-left:0;}
+#sidebar-right{width:220px;margin-right:0;}
+
+.no-sidebar #content-area{width:940px;margin-left:0;margin-right:0;}
+.one-sidebar #content-area{width:700px;}
+.two-sidebar #content-area{width:460px;}
+.sidebar-left #content-area{margin-right:0;}
+.sidebar-right #content-area{margin-left:0;}
+
+/*Region*/
+
+	#header{margin-bottom:18px;background:#f0f0f0;}
+	#header h1{margin:0px;}
+	#nav{margin-bottom:18px;background:#f0f0f0;}
+	#nav li{float:left;display:inline;}
+	
+	#main-content{background:#f0f0f0;margin-bottom:18px;}
+
+	#sidebar-left{background:#ddd;}
+	#sidebar-right{background:#ddd;}
+	
+	#content-area{background:#ddd;}
+	
+	#footer{background:#f0f0f0;text-align:center;}
+	#footer li{float:left;display:inline;}
+
+/*blocks*/
+/*the difference between with/without classes prefix*/
+/*.block{padding-bottom:16px;border-bottom:1px dashed #000;margin-bottom:16px;}*/
+
+.sidebars .block{padding-bottom:18px;margin-bottom:18px;background:#aaa;}
+.sidebars .block .content{background:#999;}
+
+#sidebar-left .block ul{list-style:disc inside;}
+#sidebar-right .block ul{list-style:square inside;}
+#sidebar-right  .costomclass-block-f{background:red;}
+
+/*node*/
+.node{color:blue;}
+.node h2.title{font-size:1.833em;line-height:2.667em;}
+.node h2.title a{color:blue;text-decoration:underline;}
+.node .meta{margin-bottom:18px;}
+.node .content{background:#999;}
+
+/*views*/
+.view{background:#aaa;}
+.view-costomclass .views-row{border-bottom:4px dashed #000;margin-bottom:18px;}
+.view-costomclass .views-row-last{border-bottom:0;margin-bottom:0;}
+
+/* pager */
+ul.pager{text-align: center;}
+ul.pager li{display:inline;margin-right:10px;}
+
+/*webform*/
+.webform-client-form .form-item{margin-bottom:18px;}
+.webform-client-form .form-text {width:100%;}
+.webform-component-fieldset{border:1px solid #000;padding: 10px;}
+.webform-component-select .form-checkboxes .form-item{margin-bottom:0;}
+.webform-component-textarea {width:100%;}
+.webform-client-form .form-submit{float:right;}
+
+/*form validation*/
+#error-summary{font-size:18px;color:#ff0000;}
+em.error{color:#ff0000;font-size:11px;}
+.form-required,label.error{color:#ff0000;}
+input.error{border:1px solid #ff0000;}
+
+/*uniform*/
+.form-select{width:300px;border:0;}
+.ui-selectmenu {
+display:block;
+overflow:hidden;
+position:relative;
+text-decoration:none;
+background:url("../images/text-bg.gif") no-repeat scroll 0 0;
+}
+.ui-selectmenu-status {
+background:url("../images/select-arrow.gif") no-repeat  right center;
+display:block;
+outline:medium none;
+text-decoration:none;
+margin:4px 0;
+color:#333;
+}
+.ui-selectmenu-menu {
+background:#fff;
+border:1px solid #333;
+list-style:none outside none;
+overflow:auto;
+position:absolute;
+top:0;
+visibility:hidden;
+}
+.ui-selectmenu-open {
+visibility:visible;
+}
+
+/*toolbar*/
+.toolbar{text-align:right;font-size: 12px;}
+
+/* file upload */
+.file-input-wrapper { 
+margin:8px 0; 
+position:relative;
+}
+.input-file-entity { 
+position: absolute; 
+display: inline; 
+font-size: 50px; /* button enough large */
+margin:0!important; padding:0!important; /* prevent input[style='file'] style  */
+}
+.input-file-text { 
+background:url("../images/text-bg.gif") no-repeat 0 0 transparent; 
+border:1px solid #CECECE; 
+display:inline; 
+height:1.917em; 
+line-height:1.917em; 
+font-size:1em;
+margin:1px; 
+padding:0; 
+width:345px;
+display:inline; 
+cursor:text;
+} 
+
+.input-file-button { 
+width:102px; 
+height:27px; 
+background:url("../images/button.png") no-repeat 0 0; 
+display: inline; 
+position: absolute;  
+overflow: hidden; /* required */
+}
+
+.input-file-button:hover {background-position: 0 -27px;}
+.input-file-button.focused {background-position: 0 -27px;}
+
+/*sitemap*/
+.block-site-map ul li{list-style:disc inside;float:left;margin:0 20px 18px 20px;width:135px;}
+.block-site-map ul li ul li{list-style:circle inside;margin:0 0 0 20px;float:none;width:auto;}
+.block-site-map ul li ul li ul li{list-style:square inside;margin-left:20px;}
+
+/*parther
+	@import url("sub.css");
+*/

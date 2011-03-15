@@ -1,0 +1,47 @@
+/*
+12px = 1em
+16px = 1.333em
+18px = 1.5em
+*/
+
+h1{font-size:2em;line-height:1.5em;}
+h2{font-size:1.8333em;line-height:1.6364em;}
+h3{font-size:1.6667em;line-height:1.8em;}
+h4{font-size:1.5em;line-height:1em;}
+h5{font-size:1.3333em;line-height:1.125em;}
+h6{font-size:1.1667em;line-height:1.2857em;}
+
+/*
+EZP editor classname: mceContentBody
+DRUPAL editor classname: .editors
+*/
+
+.editors blockquote{padding:10px;}
+.editors p{font-size:1em;line-height:1.333em;margin-bottom:18px;}
+.editors p.margin0{margin-bottom:0;}
+.editors p.margin36{margin-bottom:36px;}
+.editors p.margin54{margin-bottom:58px;}
+
+.editors h3{font-size:1.5em;margin:32px 0 16px 0;line-height:2.667em;}
+.editors h4{font-size:1.333em;margin:32px 0 16px 0;line-height:1.333em;}
+.editors h5{font-size:1em;margin:32px 0 16px 0;line-height:1.333em;}
+
+.editors img{padding:5px;background:#ddd;}
+.editors .float-right{float:right;display:inline;margin:0 0 16px 10px;}
+.editors .float-left{float:left;display:inline;margin:0 10px 16px 0;}
+.editors .align-center{text-align:center;}
+
+.editors ul,
+.editors ol{font-size:1em;line-height:1.333em;}
+.editors ul {list-style:disc inside none;margin-bottom:18px;}
+.editors ul ul{list-style:circle inside;padding-left:20px;margin-bottom:0px;}
+.editors ul ul ul{list-style:square inside;}
+.editors ol {list-style:decimal inside none;margin-bottom:18px;}
+.editors ol ol{list-style:decimal inside;padding-left:20px;margin-bottom:0px;}
+.editors li li {font-size:1em;}
+/*5 styles for plain text (not links and lists) 2011-02-17 */
+.cke-normal-text{display:block;color:#333;font-size:12px;}
+.cke-gras-text{display:block;color:#333;font-size:14px;line-height:20px;}
+.cke-pink-text{display:block;color:#d5055c;font-size:20px;}
+.cke-green-text{display:block;color:#bac33c;font-size:20px;line-height:26px;}
+.cke-purple-text{display:block;color:#7f63e3;font-size:20px;}
